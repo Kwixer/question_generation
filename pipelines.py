@@ -1,5 +1,6 @@
 import itertools
 import logging
+import re
 from typing import Optional, Dict, Union
 
 from nltk import sent_tokenize
