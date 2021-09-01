@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-from question_generation import __version__
+# from question_generation import __version__
 
 with open("README.md", "r") as f:
     long_description = f.read()
@@ -8,7 +8,7 @@ with open("README.md", "r") as f:
 setup(
     name="question_generation",
     packages=find_packages(),
-    version=__version__,
+    version="0.1.0",
     url="https://github.com/patil-suraj/question_generation",
     license="MIT",
     author="Suraj Patil",
