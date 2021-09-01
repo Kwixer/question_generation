@@ -14,7 +14,7 @@ setup(
     author="Suraj Patil",
     author_email="surajp815@gmail.com",
     description="Question generation is the task of automatically generating questions from a text paragraph.",
-    install_requires=["transformers>=4.5.1", "nltk", "nlp>=0.4.0", "torch", "sentencepiece", "protobuf"],
+    install_requires=["transformers>=4.5.1", "nltk>=3.2.5", "nlp>=0.4.0", "torch>=1.7.1", "sentencepiece>=0.1.96", "protobuf>=3.17.3"],
     python_requires=">=3.6",
     include_package_data=True,
     platforms="any",

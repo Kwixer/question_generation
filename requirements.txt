@@ -1,6 +1,6 @@
 transformers==4.5.1
 nltk==3.2.5
-nlp>=0.4.0
+nlp==0.4.0
 sentencepiece==0.1.96
 protobuf==3.17.3
 torch==1.7.1
