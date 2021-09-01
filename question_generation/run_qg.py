@@ -20,9 +20,9 @@ from transformers import (
     set_seed,
 )
 
-from trainer import Trainer
-from data_collator import T2TDataCollator
-from utils import freeze_embeds, assert_not_all_frozen
+from question_generation.trainer import Trainer
+from question_generation.data_collator import T2TDataCollator
+from question_generation.utils import freeze_embeds, assert_not_all_frozen
 
 MODEL_TYPE_TO_TOKENIZER = {
     "t5": T5Tokenizer,
